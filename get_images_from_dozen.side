@@ -1,0 +1,174 @@
+{
+  "id": "7f9bbdf4-007e-46b5-8ac3-54a5b39182e5",
+  "version": "1.1",
+  "name": "demo",
+  "url": "https://yourshot.nationalgeographic.com",
+  "tests": [{
+    "id": "841e29af-8620-405b-b37a-a19646d29d13",
+    "name": "get_images_from_dozen",
+    "commands": [{
+      "id": "d58b6783-9dcf-40a9-bbe2-d8b73ede2260",
+      "comment": "",
+      "command": "store",
+      "target": "2018-05-03",
+      "targets": [],
+      "value": "date"
+    }, {
+      "id": "53ff855f-60da-48f1-86e4-3c710321c01b",
+      "comment": "",
+      "command": "open",
+      "target": "/daily-dozen/${date}/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c126aa94-6961-4ab7-b415-f1460152150d",
+      "comment": "",
+      "command": "storeAttribute",
+      "target": "xpath=//div[@id='app_dailyDozenContainer']/div/div/div[1]/div/a@href",
+      "targets": [
+        ["css=.dailyDozenItem:nth-child(3) .mainImage", "css:finder"],
+        ["xpath=//div[@id='app_dailyDozenContainer']/div/div/div[3]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": "imageLink1"
+    }, {
+      "id": "b5f3848e-3f61-40a3-bd73-dfbf57569be8",
+      "comment": "",
+      "command": "storeAttribute",
+      "target": "xpath=//div[@id='app_dailyDozenContainer']/div/div/div[2]/div/a@href",
+      "targets": [
+        ["css=.dailyDozenItem:nth-child(3) .mainImage", "css:finder"],
+        ["xpath=//div[@id='app_dailyDozenContainer']/div/div/div[3]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": "imageLink2"
+    }, {
+      "id": "7bd80c3f-a4b9-4171-b05d-f959058fdb4f",
+      "comment": "",
+      "command": "storeAttribute",
+      "target": "xpath=//div[@id='app_dailyDozenContainer']/div/div/div[3]/div/a@href",
+      "targets": [
+        ["css=.dailyDozenItem:nth-child(3) .mainImage", "css:finder"],
+        ["xpath=//div[@id='app_dailyDozenContainer']/div/div/div[3]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": "imageLink3"
+    }, {
+      "id": "009bce59-911a-4802-a13e-8b3dd3ccb62b",
+      "comment": "",
+      "command": "storeAttribute",
+      "target": "xpath=//div[@id='app_dailyDozenContainer']/div/div/div[4]/div/a@href",
+      "targets": [
+        ["css=.dailyDozenItem:nth-child(3) .mainImage", "css:finder"],
+        ["xpath=//div[@id='app_dailyDozenContainer']/div/div/div[3]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": "imageLink4"
+    }, {
+      "id": "01c68f8d-6d9d-4fb8-b8ad-7c5ab2a829ac",
+      "comment": "",
+      "command": "storeAttribute",
+      "target": "xpath=//div[@id='app_dailyDozenContainer']/div/div/div[5]/div/a@href",
+      "targets": [
+        ["css=.dailyDozenItem:nth-child(3) .mainImage", "css:finder"],
+        ["xpath=//div[@id='app_dailyDozenContainer']/div/div/div[3]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": "imageLink5"
+    }, {
+      "id": "28345996-dde7-4d45-bc98-e82ebae139c5",
+      "comment": "",
+      "command": "storeAttribute",
+      "target": "xpath=//div[@id='app_dailyDozenContainer']/div/div/div[6]/div/a@href",
+      "targets": [
+        ["css=.dailyDozenItem:nth-child(3) .mainImage", "css:finder"],
+        ["xpath=//div[@id='app_dailyDozenContainer']/div/div/div[3]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": "imageLink6"
+    }, {
+      "id": "2147a874-98e0-49d5-9c65-19c5d0a82e06",
+      "comment": "",
+      "command": "storeAttribute",
+      "target": "xpath=//div[@id='app_dailyDozenContainer']/div/div/div[7]/div/a@href",
+      "targets": [
+        ["css=.dailyDozenItem:nth-child(3) .mainImage", "css:finder"],
+        ["xpath=//div[@id='app_dailyDozenContainer']/div/div/div[3]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": "imageLink7"
+    }, {
+      "id": "5b055558-1a61-438d-95a7-5a86cbea9a75",
+      "comment": "",
+      "command": "storeAttribute",
+      "target": "xpath=//div[@id='app_dailyDozenContainer']/div/div/div[8]/div/a@href",
+      "targets": [
+        ["css=.dailyDozenItem:nth-child(3) .mainImage", "css:finder"],
+        ["xpath=//div[@id='app_dailyDozenContainer']/div/div/div[3]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": "imageLink8"
+    }, {
+      "id": "080ad417-5c6f-4eba-a80c-da921ac724d7",
+      "comment": "",
+      "command": "storeAttribute",
+      "target": "xpath=//div[@id='app_dailyDozenContainer']/div/div/div[9]/div/a@href",
+      "targets": [
+        ["css=.dailyDozenItem:nth-child(3) .mainImage", "css:finder"],
+        ["xpath=//div[@id='app_dailyDozenContainer']/div/div/div[3]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": "imageLink9"
+    }, {
+      "id": "cc8270d6-2463-4808-bd57-162d60931566",
+      "comment": "",
+      "command": "storeAttribute",
+      "target": "xpath=//div[@id='app_dailyDozenContainer']/div/div/div[10]/div/a@href",
+      "targets": [
+        ["css=.dailyDozenItem:nth-child(3) .mainImage", "css:finder"],
+        ["xpath=//div[@id='app_dailyDozenContainer']/div/div/div[3]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": "imageLink10"
+    }, {
+      "id": "084806e4-3fa5-41fb-8009-2d5a89ce1d95",
+      "comment": "",
+      "command": "storeAttribute",
+      "target": "xpath=//div[@id='app_dailyDozenContainer']/div/div/div[11]/div/a@href",
+      "targets": [
+        ["css=.dailyDozenItem:nth-child(3) .mainImage", "css:finder"],
+        ["xpath=//div[@id='app_dailyDozenContainer']/div/div/div[3]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": "imageLink11"
+    }, {
+      "id": "162e9935-f7a6-426c-bece-8427485c1d9c",
+      "comment": "",
+      "command": "storeAttribute",
+      "target": "xpath=//div[@id='app_dailyDozenContainer']/div/div/div[12]/div/a@href",
+      "targets": [
+        ["css=.dailyDozenItem:nth-child(3) .mainImage", "css:finder"],
+        ["xpath=//div[@id='app_dailyDozenContainer']/div/div/div[3]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/img", "xpath:position"]
+      ],
+      "value": "imageLink12"
+    }, {
+      "id": "9935365c-cc44-4cfa-8903-4b74b92346c4",
+      "comment": "",
+      "command": "echo",
+      "target": "image link: ${imageLink1}, ${imageLink2}, ${imageLink3}, ${imageLink4}, ${imageLink5}, ${imageLink6}, ${imageLink7}, ${imageLink8}, ${imageLink9}, ${imageLink10}, ${imageLink11}, ${imageLink12}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4f5e79a1-9818-411d-9ad7-7a09a463db32",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://yourshot.nationalgeographic.com/"],
+  "plugins": []
+}
