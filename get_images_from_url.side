@@ -169,6 +169,6 @@
     "timeout": 300,
     "tests": []
   }],
-  "urls": ["https://yourshot.nationalgeographic.com/"],
+  "urls": ["https://[url]"],
   "plugins": []
 }
